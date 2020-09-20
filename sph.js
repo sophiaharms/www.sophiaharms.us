@@ -1,7 +1,7 @@
 const queryString = window.location.search;
 console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
-const product = urlParams.get('s')
+const s = urlParams.get('s')
 console.log(s);
 
 var slideIndex = urlParams.get('s');
