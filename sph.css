@@ -26,6 +26,9 @@
 .logo img {
   max-height: 25vh;
 }
+.logo:hover {
+  opacity: 0.7;
+}
 .header-right {
   float: right;
 }
@@ -105,8 +108,8 @@
 .above-the-fold {
   z-index: 2;
   box-sizing: border-box;
-  padding-left: 12vw;
-  padding-right: 12vw;
+  padding-left: 6vw;
+  padding-right: 6vw;
   position: absolute;
   font-size: 3.5vw;
   bottom: 6%;
