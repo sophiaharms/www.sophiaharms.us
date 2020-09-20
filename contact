@@ -1,0 +1,22 @@
+<head>
+  <title>Sophia Harms</title>
+  <meta http-equiv="x-ua-compatible" content="chrome=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+  <div class="header">
+    <a href="#default" class="logo">
+      <img src="https://lh3.googleusercontent.com/oUhfBJO0bUKR_fAP9bdgEceK9fonCbeZi0L1OG6lOTNQBx9Cunqjl-tFT7st2tpQQGPZuAX_xYKPUfcigoX61vXvKA6zs99zussJfqzTkB8Mlv6yIfYN-eTdgW-5LfVTHOh0auA3FjQ5XNAQ6il8cJjq9fPuu6gyvMK7_7Cj7H-JwwOmZvK6V9djCgHGnDQ1yKilRSeotRRSgWGYVQuu0XwymgF-JOV6EKyL_Y01pDg6OFa1SfBlX7Ff7pWjfpAgPY_7UydB92ALXo0yzr7FAR2meHx3Hdaq2MErHIWTzQWjQsGnKjU5i51CwIe1pTKXwe6sTfvh9mUGTX_KfiVhvqMAz586tr_4KR8LIvOS0WGAbGYAcczX4SFwR_OHFr3kOn-YLT_s_S7faBO0nRyphqyEMb7OU4r1kN3RyGWTN6obzd10DMYsD62RJfgXXuHg1ioWCpfMTaQAZXiO4LH6qfgZS_gdpKnoytGdccJjuRE9nReiW2TN70AZVTuIALpJ0KOrTizVxTlQi8ZxzLHEAdtz9RKEKrKqtkfxoiZPrm_s0e4MaFNTByNJn20y8qy_Fj_SaeJ4cAZnJ6LhupSBs_5UZbTKn6Lsg1Mr1D-iWdKZRHtILA0YPhV_puMZ08OKeUG7aR89M_pti1I9bmFfpNLJZun8VtqRPkPDLhrm7sT98ZgEzav9WADqf16AGPY=s208-no?authuser=0">
+    </a>
+  <div class="header-right">
+    <a href="#portfolio">/portfolio</a>
+    <a href="#contact">/contact</a>
+  </div>
+  </div>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="above-the-fold">
+  <h2><a href="mailto:sophia.harms@gmail.com" target="_blank">sophia.harms@gmail.com</a></h2>
+  <h2>785.317.0034</h2>
+</div>
+</body>
