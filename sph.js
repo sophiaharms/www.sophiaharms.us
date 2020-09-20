@@ -1,10 +1,7 @@
-const queryString = window.location.search;
-console.log(queryString);
-const urlParams = new URLSearchParams(queryString);
-const s = urlParams.get('s')
-console.log(s);
+let params = new URLSearchParams(document.location.search.substring(1));
+let s = params.get("s"); 
 
-var slideIndex = URLSearchParams.get('s');
+var slideIndex = s;
 showSlides(slideIndex);
 
 function plusSlides(n) {
