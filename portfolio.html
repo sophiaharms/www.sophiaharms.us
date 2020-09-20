@@ -18,15 +18,15 @@
   var slideIndex = 1;
 showSlides(slideIndex);
 
-window.onload = function plusSlides(n) {
+function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-window.onload = function currentSlide(n) {
+function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-window.onload = function showSlides(n) {
+function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -56,7 +56,7 @@ window.onload = function showSlides(n) {
  })();
   </script>
 </head>
-<di class="slideshow-container">
+<div class="slideshow-container" onload="slideIndex()">
   <div class="mySlides">
     <div class="project">
       <div class="project-image"><a href="#discrete-response-to-free-text">
