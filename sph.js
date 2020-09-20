@@ -4,7 +4,7 @@ const urlParams = new URLSearchParams(queryString);
 const s = urlParams.get('s')
 console.log(s);
 
-var slideIndex = console.log(s);
+var slideIndex = URLSearchParams.get('s');
 showSlides(slideIndex);
 
 function plusSlides(n) {
