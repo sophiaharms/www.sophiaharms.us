@@ -1,7 +1,7 @@
 let params = new URLSearchParams(document.location.search.substring(1));
 let s = params.get("s"); 
 
-var slideIndex = s;
+var slideIndex = params.get("s");
 showSlides(slideIndex);
 
 function plusSlides(n) {
