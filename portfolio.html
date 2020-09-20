@@ -3,7 +3,47 @@
   <meta http-equiv="x-ua-compatible" content="chrome=1">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="sph.css">
-  <script src="sph.js"></script>
+  <script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+ var timeOut = null;
+
+ $('.next').click(function(e,simulated){
+     if(!simulated){
+         clearTimeout(timeOut);
+      }
+ });
+
+ (function autoAdvance(){
+   $('.next').trigger('click',[true]);
+     timeOut = setTimeout(autoAdvance,5000);
+ })();
+  </script>
   <div class="header">
     <a href="www.sophiaharms.us" class="logo">
       <img src="https://lh3.googleusercontent.com/fAqyAyROZVJHr6jvpZK313Impb-A_5aoreYJnV8wl3HXuS0xiz7YucXe8poSOb5sxHpWo4_xQRZaT9qp0oIsrDM3IwlPNnRYTKNHC2_K81xaG2_56CKaaY2rqwthb4U_2dJXa52RBZQ=s208-p-k">
