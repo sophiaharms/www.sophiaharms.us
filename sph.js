@@ -1,8 +1,8 @@
 let params = new URLSearchParams(document.location.search.substring(1));
-let s = params.get("s"); 
+let slideno = params.get("slideno");
 
-var slideIndex = params.get("s");
-showSlides(slideIndex);
+var slideIndex = params.get("slideno");
+showSlides(slideIndex); 
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
