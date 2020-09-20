@@ -21,7 +21,7 @@
   line-height: 1.5em;
 }
 .header a:hover {
-  color: gray;
+  opacity: 0.7;
 }
 .logo img {
   max-height: 25vh;
@@ -172,10 +172,10 @@ p3 {
   font-size: calc(12px + (18 - 12) * ((100vw - 200px) / (1600 - 200)));
   font-family: 'Crimson Text', serif;
 }
-p3 a, h3 a {
+p3 a, h1 a, h2 a, h3 a {
   background-image: none !important;
 }
-p3 a, h3 a {
+p3 a, h1 a, h2 a, h3 a {
   border-bottom: 0 solid #f9ea26;
   -o-box-shadow: inset 0 -.45em 0 #f9ea26;
   -ms-box-shadow: inset 0 -.45em 0 #f9ea26;
@@ -188,7 +188,7 @@ p3 a, h3 a {
   z-index:1;
   font-weight: 700;
 }
-p3 a:after, h3 a:after {
+p3 a:after, h1 a:after, h2 a:after, h3 a:after {
   content:"";
   position:absolute;
   width:100%;
