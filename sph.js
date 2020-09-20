@@ -1,7 +1,7 @@
 let params = new URLSearchParams(document.location.search.substring(1));
 let slideno = params.get("slideno");
 
-var slideIndex = console.log(slideno) 
+var slideIndex = console.log("slideno") 
 ;
 showSlides(slideIndex); 
 
