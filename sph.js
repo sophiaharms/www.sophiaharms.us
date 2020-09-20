@@ -1,4 +1,10 @@
-var slideIndex = 1;
+const queryString = window.location.search;
+console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
+const product = urlParams.get('s')
+console.log(s);
+
+var slideIndex = urlParams.get('s');
 showSlides(slideIndex);
 
 function plusSlides(n) {
