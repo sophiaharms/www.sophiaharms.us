@@ -24,7 +24,7 @@ function showSlides(n) {
     $(document).ready(function() {
   if (location.hash) {
     var hash = location.hash.slice(1);
-    $("dot").eq(hash).trigger('click'); 
+    $(".dot").eq(hash).trigger('click'); 
   }
 });
   slides[slideIndex-1].style.display = "block"; 
