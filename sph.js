@@ -1,13 +1,6 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-$(document).ready(function() {
-  if (location.hash) {
-    var hash = location.hash.slice(1);
-    $(".dot").eq(hash).click();
-  }
-});
-
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -15,6 +8,13 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+$(document).ready(function() {
+  if (location.hash) {
+    var hash = location.hash.slice(1);
+    $(".dot").eq(hash).click();
+  }
+});
 
 function showSlides(n) {
   var i;
