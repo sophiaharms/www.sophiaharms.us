@@ -17,6 +17,14 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
   <script src="sph.js"></script>
+  <script> 
+    $(document).ready(function() {
+    if (location.hash) {
+    var hash = location.hash.slice(1);
+    $(".dot").eq(hash).click();
+    }
+  });
+    </script>  
 </head>
 <body onload="showSlides()">
 <div class="slideshow-container">
