@@ -13,12 +13,6 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-   $(document).ready(function() {
-  if (location.hash) {
-    var hash = location.hash.slice(1);
-    $(".dot").eq(hash).trigger('click'); 
-  }
-});
   if (n > slides.length) {slideIndex = 1} 
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
@@ -34,6 +28,13 @@ function showSlides(n) {
 
 
  var timeOut = null;
+
+ $(document).ready(function() {
+  if (location.hash) {
+    var hash = location.hash.slice(1);
+    $(".dot").eq(hash).trigger('click'); 
+  }
+});
 
  $('.next').click(function(e,simulated){
      if(!simulated){
