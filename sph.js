@@ -29,18 +29,19 @@ function showSlides(n) {
 
  var timeOut = null;
 
- $(document).ready(function() {
-  if (location.hash) {
-    var hash = location.hash.slice(1);
-    $(".dot").eq(hash).click(); 
-  }
-});
 
  $('.next').click(function(e,simulated){
      if(!simulated){
          clearTimeout(timeOut);
       }
  });
+
+ $(document).ready(function() {
+  if (location.hash) {
+    var hash = location.hash.slice(1);
+    $('.dot').eq(hash).click(); 
+  }
+});
 
  (function autoAdvance(){
    $('.next').trigger('click',[true]);
