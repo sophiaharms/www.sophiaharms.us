@@ -1,4 +1,5 @@
-var slideIndex = $_GET['slideno'];
+const params = new URLSearchParams(window.location.search);
+var slideIndex = params.get('slideno');
 showSlides(slideIndex); 
 
 function plusSlides(n) {
