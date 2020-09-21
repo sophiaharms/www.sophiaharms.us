@@ -1,4 +1,6 @@
-var slideIndex = 1;
+$slideno = $_GET['slideno'];
+
+var slideIndex = $slideno;
 showSlides(slideIndex); 
 
 function plusSlides(n) {
