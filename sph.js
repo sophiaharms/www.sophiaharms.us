@@ -9,12 +9,12 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-$(document).ready(function() {
+function jump() {
   if (location.hash) {
     var hash = location.hash.slice(1);
     $(".dot").eq(hash).click();
   }
-});
+};
 
 function showSlides(n) {
   var i;
