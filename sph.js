@@ -37,3 +37,10 @@ function showSlides(n) {
    $('.next').trigger('click',[true]);
      timeOut = setTimeout(autoAdvance,5000);
  })();
+
+$(document).ready(function() {
+  if (location.hash) {
+    var hash = location.hash.slice(1);
+    $(".dot").eq(hash).click();
+  }
+});
