@@ -10,13 +10,13 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-      $(document).ready(function() {
+  var i;
+  $(document).ready(function() {
   if (location.hash) {
     var hash = location.hash.slice(1);
     $(".dot").eq(hash).trigger('click'); 
   }
 });
-  var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1} 
