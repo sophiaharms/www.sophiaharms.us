@@ -1,4 +1,3 @@
-const params = new URLSearchParams(window.location.search);
 var slideIndex = 2;
 showSlides(slideIndex); 
 
