@@ -1,8 +1,3 @@
-$(document).ready(function() {
-    var hash = window.location.hash.slice(1);
-    $("dot").eq(hash).click();
-});
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -42,3 +37,10 @@ function showSlides(n) {
    $('.next').trigger('click',[true]);
      timeOut = setTimeout(autoAdvance,5000);
  })();
+
+$(document).ready(function() {
+  if (location.hash) {
+    var hash = location.hash.slice(1);
+    $("dot").eq(hash).click();
+  }
+});
