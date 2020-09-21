@@ -1,9 +1,9 @@
-$(document).ready(function() {
-  if (location.hash) {
-    var hash = location.hash.slice(1);
-    $(".dot").eq(hash).click();
-  }
-});
+if(location.hash){
+     //assuming you have a hash like this -> slide1
+     var slide =  location.hash;
+     var slideNumber = slide.replace("#slide","");
+     currentSlide(slide);
+}
 
 var slideIndex = 1;
 showSlides(slideIndex);
