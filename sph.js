@@ -1,10 +1,12 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
-if (location.hash) {
-var hash = location.hash.slice(1);
-$(".dot").eq(hash).click();
-}
+$(document).ready(function() {
+  if (location.hash) {
+    var hash = location.hash.slice(1);
+    $(".dot").eq(hash).click();
+  }
+});
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
