@@ -1,5 +1,5 @@
 var slideIndex = 2;
-showSlides(slideIndex); 
+showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
