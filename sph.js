@@ -1,4 +1,4 @@
-var slideIndex = echo $_GET['slideno'];
+var slideIndex = 1;
 showSlides(slideIndex); 
 
 function plusSlides(n) {
