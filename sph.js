@@ -1,3 +1,5 @@
+var dots = document.getElementsByClassName("dot");
+
 $(document).ready(function() {
   if (location.hash) {
     var hash = location.hash.slice(1);
