@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var hash = window.location.hash.slice(1);
-    $(".dot").eq(hash).click();
+    $("dot").eq(hash).click();
 });
 
 var slideIndex = 1;
