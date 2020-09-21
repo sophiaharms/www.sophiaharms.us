@@ -229,8 +229,8 @@ code {
 .prev, .next {
   display: inline-block;
   cursor: pointer;
-  padding-left: 24vw;
-  padding-right: 24vw;
+  padding-left: 16vw;
+  padding-right: 16vw;
 }
 
 .next {
