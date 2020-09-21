@@ -208,14 +208,13 @@ code {
 }
 .clickers {
   position: relative;
-  top: -20vw !important;
+  top: -30vw !important;
 }
 .mySlides {
   display: block;
   padding-left: 25%;
   padding-right: 25%;
   width: 50%;
-  height: 100%;
 }
 .prev, .next {
   display: inline-block;
