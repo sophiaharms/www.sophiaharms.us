@@ -3,12 +3,9 @@
   background-color: #ffffff;
   position: relative;
   z-index: 2;
-  width: 100%;
   box-sizing: border-box;
   padding-top: 2.5vw;
   padding-bottom: 2.5vw;
-  padding-left: 6vw;
-  padding-right: 6vw;
   font-family: 'DM Sans', sans-serif;
 }
 .header a {
