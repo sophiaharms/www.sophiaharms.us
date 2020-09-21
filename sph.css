@@ -176,13 +176,8 @@ p3 a, h1 a, h2 a, h3 a {
   background-image: none !important;
 }
 p3 a, h1 a, h2 a, h3 a {
-  border-bottom: 0 solid #f9ea26;
-  -o-box-shadow: inset 0 -.45em 0 #f9ea26;
-  -ms-box-shadow: inset 0 -.45em 0 #f9ea26;
-  box-shadow: inset 0 -0.45em 0 #f9ea26;
   text-decoration: none;
   color: inherit;
-  transition: background .15s #f9ea26;
   padding: 0 2px;
   position:relative;
   z-index:1;
@@ -192,7 +187,7 @@ p3 a:after, h1 a:after, h2 a:after, h3 a:after {
   content:"";
   position:absolute;
   width:100%;
-  height:60%;
+  height:70%;
   background-color: #f9ea26;
   left:-2px;
   bottom:-2px;
