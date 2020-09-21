@@ -1,10 +1,3 @@
-$(document).ready(function() {
-  if (location.hash) {
-    var hash = location.hash.slice(1);
-    $(".dot").eq(hash).trigger('click'); 
-  }
-});
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -30,7 +23,15 @@ function showSlides(n) {
     }
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
+  $(document).ready(function() {
+  if (location.hash) {
+    var hash = location.hash.slice(1);
+    $("dot").eq(hash).trigger('click'); 
+  }
+});
 }
+
+
 
  var timeOut = null;
 
