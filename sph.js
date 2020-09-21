@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-var slideIndex = params.get('slideno');
+var slideIndex = 2;
 showSlides(slideIndex); 
 
 function plusSlides(n) {
