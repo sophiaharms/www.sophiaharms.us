@@ -49,6 +49,7 @@ a:hover {
 @media screen and (max-width: 700px) {
   .header {
     padding: 0px !important;
+    width: 87.5% !important;
   }
   .header a {
     float: none;
